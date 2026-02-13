@@ -26,7 +26,6 @@ config:
   kafka_api:
     - address: 0.0.0.0
       port: 9092
-
   advertised_kafka_api:
     - address: redpanda
       port: 9092

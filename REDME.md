@@ -19,15 +19,4 @@ source:
     repo: https://charts.redpanda.com
     valueFiles:
       - values.yaml
-
-
----
-
-# 🎯 Próximo passo
-
-Agora que tens o **health-redpanda**, posso gerar também:
-
-👉 **os ficheiros Helm completos para o `health-postgres`**  
-(com `values.yaml`, `values-dev.yaml`, `values-prod.yaml`, e scripts SQL)
-
-Diz-me só **se queres que eu avance já para o Postgres**.
+```
