@@ -23,3 +23,10 @@ config:
     enable_sasl: false
     log_segment_size: 536870912
     retention_bytes: 1073741824
+  kafka_api:
+    - address: 0.0.0.0
+      port: 9092
+
+  advertised_kafka_api:
+    - address: redpanda
+      port: 9092
